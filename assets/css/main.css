@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.kitt-large{
+  background-image: url(../img/dawn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.kitten{
+  margin: 25%;
+  margin-bottom: 0;
+}
+.kitty{
+  height: 40em;
+}

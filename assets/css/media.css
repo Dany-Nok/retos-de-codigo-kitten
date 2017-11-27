@@ -1,0 +1,25 @@
+@media (min-width: 200px) and (max-width: 480px) { /*VISTA PARA TAMAÑO PEQUEÑO*/
+  [class*="col-"]{
+    width: 100%;
+  }
+  .kitt-large{
+    background-image: url(../img/night.jpg);
+  }
+
+  .kitten{
+    content: url(../img/kitten-small.png);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) { /*VISTA PARA TAMAÑO MEDIANO*/
+  [class*="col-"]{
+    width: 100%;
+  }
+  .kitt-large{
+    background-image: url(../img/sunny-day.jpg);
+  }
+
+  .kitten{
+    content: url(../img/kitten-medium.png);
+  }
+}
